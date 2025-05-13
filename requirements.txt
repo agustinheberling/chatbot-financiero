@@ -1,0 +1,16 @@
+fastapi
+pydantic
+uvicorn
+streamlit
+pdfminer.six
+transformers
+torch
+sentence-transformers
+faiss-cpu
+langchain
+llama-index
+huggingface-hub
+langchain-community
+accelerate
+pymupdf
+autoawq

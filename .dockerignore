@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.ipynb
+*.log
+*.pt
+*.bin
+*.gguf
+*.pdf
+*.csv
+*.json
+models/
+data/
+.env
+venv/
+.cache/
+*.egg-info/
