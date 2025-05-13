@@ -43,19 +43,19 @@ El sistema sigue un enfoque modular para responder preguntas sobre documentos no
 5. LLM para respuesta generada: se utilza el modelo Llama 3 vía Hugging Face (meta-llama/Llama-3.2-3B-Instruct) con LangChain. Se realiza interacción a través de LangChain y LlamaIndex para facilitar el encadenamiento de documentos y preguntas.
 
 ## Justificación de decisiones técnicas
-FastAPI: framework moderno y rápido para construir APIs con tipado estático.
-Streamlit: permite construir interfaces visuales ligeras con Python.
-PDFMiner: ofrece control detallado sobre el parseo de textos jurídicos complejos.
-e5-base: balance óptimo entre precisión semántica y velocidad de inferencia.
-FAISS: eficiente en recuperación vectorial, ideal para volúmenes medianos de texto.
-Llama 3: potente modelo de lenguaje de código abierto, adecuado para tareas complejas de generación.
-LangChain y LlamaIndex: facilitan la implementación de RAG y el manejo de pipelines de recuperación.
+- FastAPI: framework moderno y rápido para construir APIs con tipado estático.
+- Streamlit: permite construir interfaces visuales ligeras con Python.
+- PDFMiner: ofrece control detallado sobre el parseo de textos jurídicos complejos.
+- e5-base: balance óptimo entre precisión semántica y velocidad de inferencia.
+- FAISS: eficiente en recuperación vectorial, ideal para volúmenes medianos de texto.
+- Llama 3: potente modelo de lenguaje de código abierto, adecuado para tareas complejas de generación.
+- LangChain y LlamaIndex: facilitan la implementación de RAG y el manejo de pipelines de recuperación.
 
 ## Créditos y referencias
-Transformers & Datasets: Hugging Face
-e5-base: intfloat/e5-base
-Llama 3: Meta AI, acceso a través de Hugging Face
-LangChain: https://www.langchain.com
-LlamaIndex: https://www.llamaindex.ai
-PDFMiner.six: https://github.com/pdfminer/pdfminer.six
-FAISS: Facebook AI Similarity Search
+- Transformers & Datasets: Hugging Face
+- e5-base: intfloat/e5-base
+- Llama 3: Meta AI, acceso a través de Hugging Face
+- LangChain: https://www.langchain.com
+- LlamaIndex: https://www.llamaindex.ai
+- PDFMiner.six: https://github.com/pdfminer/pdfminer.six
+- FAISS: Facebook AI Similarity Search
