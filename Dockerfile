@@ -5,8 +5,8 @@ FROM python:3.8-slim
 WORKDIR /app
 
 # Copiar los archivos de requisitos y instalar las dependencias
-COPY requirements_docker.txt .
-RUN pip install -r requirements_docker.txt
+COPY requirements.txt .
+RUN pip install -r requirements.txt
 
 # Copiar todos los archivos de código fuente al directorio de trabajo
 COPY . /app
