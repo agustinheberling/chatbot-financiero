@@ -13,14 +13,13 @@ Este proyecto implementa un sistema de recuperación aumentada por generación (
 - Git (para clonar el repositorio)
 
 ## Dependencias (en requirements.txt)
-fastapi, pydantic, uvicorn, streamlit, pdfminer.six, transformers, torch, sentence-transformers, faiss-cpu, langchain, llama-index, huggingface-hub, langchain-community, accelerate, pymupdf, autoawq
+fastapi, pydantic, uvicorn, streamlit, pdfminer.six, transformers, torch, sentence-transformers, faiss-cpu, langchain, llama-index, huggingface-hub, langchain-community, accelerate, pymupdf
 
 ## Componentes del Proyecto
 - **Dockerfile**: Define el entorno de ejecución contenerizado para la API y la interfaz de usuario.
 - **app.py**: Script de Flask para implementar la API.
 - **front_streamlit.py**: Script de Streamlit para la interfaz de usuario.
-- **requirements.txt**: Lista de dependencias necesarias para el proyecto sin dockerizar.
-- **requirements_docker.txt**: Lista de dependencias necesarias para el proyecto dockerizado.
+- **requirements.txt**: Lista de dependencias necesarias para el proyecto.
 - **build_api.sh, run_api.sh, setup_api.sh, run_docker.sh**: Scripts para facilitar la construcción, ejecución y configuración de la API y el entorno de Docker.
 
 ## Instrucciones de instalación y ejecución local (sin Docker)
