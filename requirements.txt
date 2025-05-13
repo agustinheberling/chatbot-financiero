@@ -13,4 +13,3 @@ huggingface-hub
 langchain-community
 accelerate
 pymupdf
-autoawq
