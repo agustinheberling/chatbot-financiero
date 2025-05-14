@@ -17,20 +17,20 @@ fastapi, pydantic, uvicorn, streamlit, pdfminer.six, transformers, torch, senten
 
 ## Componentes del Proyecto
 - **Dockerfile**: Define el entorno de ejecución contenerizado para la API y la interfaz de usuario.
-- **app.py**: Script de Flask para implementar la API.
+- **app.py**: Script para implementar la API.
 - **front_streamlit.py**: Script de Streamlit para la interfaz de usuario.
 - **requirements.txt**: Lista de dependencias necesarias para el proyecto sin dockerizar.
-- **requirements_docker.txt**: Lista de dependencias necesarias para el proyecto dockerizado.
+- **requirements_docker.txt**: Lista de dependencias necesarias para la prueba inicial del proyecto dockerizado.
 - **build_api.sh, run_api.sh, setup_api.sh, run_docker.sh**: Scripts para facilitar la construcción, ejecución y configuración de la API y el entorno de Docker.
 
 ## Instrucciones de instalación y ejecución local (sin Docker)
 - Clonar el repositorio
-- Crear un entorno virtual e Instalar dependencias ejecutando setup_api.sh
+- Crear un entorno virtual e instalar dependencias ejecutando setup_api.sh
 - Ejecutar el sistema con run_api.sh
 - Acceder a la interfaz web en http://localhost:8501
 
 ## Ejecución con Docker
-- Asegúrate de tener Docker Desktop en ejecución
+- Tener Docker Desktop en ejecución
 - Crear la imagen ejecutando build_api.sh
 - Ejecutar el contenedor con run_docker.sh
 
@@ -52,7 +52,8 @@ El sistema sigue un enfoque modular para responder preguntas sobre documentos no
 - LangChain y LlamaIndex: facilitan la implementación de RAG y el manejo de pipelines de recuperación.
 
 ## Créditos y referencias
-- Transformers & Datasets: Hugging Face
+- Dataset (pdf): Banco Central del Uruguay
+- Transformers: Hugging Face
 - e5-base: intfloat/e5-base
 - Llama 3: Meta AI, acceso a través de Hugging Face
 - LangChain: https://www.langchain.com
